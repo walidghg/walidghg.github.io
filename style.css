@@ -1,3 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
 body {
-    background-color:white
-  }
+  color: #333;
+  line-height: 1.6;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+header .logo {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+header nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #333;
+}
+
+.intro {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.intro h1 {
+  font-size: 2em;
+}
+
+.intro h2 {
+  font-size: 1.5em;
+  color: #555;
+}
+
+.intro button {
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.competences {
+  display: flex;
+  justify-content: space-around;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.competence .icon {
+  width: 80px;
+  height: 80px;
+  background-color: #ddd;
+  margin: 0 auto 10px;
+}
+
+.realisations {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.realisations .projects {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.project {
+  width: 200px;
+  text-align: center;
+}
+
+.project img {
+  width: 100%;
+  height: auto;
+}
+.temoignage {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.temoignage {
+  display: inline-block;
+  width: 300px;
+  margin: 20px;
+  text-align: left;
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.author {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.author img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.contact {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.contact .social-icons a {
+  margin: 0 5px;
+  font-size: 1.5em;
+  color: #333;
+  text-decoration: none;
+}
+
+.contact button {
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  margin-top: 10px;
+}
