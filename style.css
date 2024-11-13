@@ -8,6 +8,8 @@
 body {
   color: #333;
   line-height: 1.6;
+  background-color: blueviolet
+  color: #ddd;
 }
 
 header {
@@ -27,28 +29,45 @@ header nav a {
   color: #333;
 }
 
-.intro {
-  text-align: center;
-  padding: 40px 20px;
+.intro{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 100px;
+  max-width: 1200px;
+  margin: auto;
 }
 
-.intro h1 {
-  font-size: 2em;
-}
-
-.intro h2 {
+.intro-text h4 {
   font-size: 1.5em;
-  color: #555;
+  color: #333;
 }
 
-.intro button {
+.intro-text h1 {
+  font-size: 3em;
+  font-weight: bold;
+}
+
+.intro-text p {
+  max-width: 500px;
+  margin: 20px 0;
+}
+.button {
+  display: inline-block;
   padding: 10px 20px;
   background-color: #333;
   color: #fff;
-  border: none;
-  cursor: pointer;
-  margin-top: 10px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
 }
+.intro-image{
+  width: 400px;
+  height: 400;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
 
 .competences {
   display: flex;
@@ -60,8 +79,8 @@ header nav a {
 .competence .icon {
   width: 80px;
   height: 80px;
-  background-color: #ddd;
-  margin: 0 auto 10px;
+  background-color: #ffffff;
+  margin: 0 auto 0px;
 }
 
 .realisations {
