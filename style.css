@@ -1,4 +1,4 @@
-* {
+{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -85,21 +85,36 @@ header nav a {
   width: 100%;
   height: auto;
 }
-.temoignage {
-  padding: 40px 20px;
+
+.realisations img{
+  width: 100;
+  height: 200;
+}
+.temoignages {
+  padding: 50px;
   text-align: center;
 }
 
 .temoignage {
-  display: inline-block;
-  width: 300px;
-  margin: 20px;
-  text-align: left;
   background-color: #f9f9f9;
   padding: 20px;
-  border-radius: 8px;
+  margin: 10px;
+  display: inline-block;
+  max-width: 300px;
+  text-align: left;
 }
 
+.temoignage img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.temoignage-details {
+  display: flex;
+  align-items: center;
+}
 .author {
   display: flex;
   align-items: center;
