@@ -6,10 +6,11 @@
 }
 
 body {
-  color: #333;
+  color: #211f1f;
   line-height: 1.6;
-  background-color: blueviolet
-  color: #ddd;
+  background: url('https://www.papierpeintpanoramique.fr/media/catalog/product/cache/871f459736130e239a3f5e6472128962/w/0/w03754-small.jpg') no-repeat center center fixed;
+  background-size: cover;
+  color: #111010;
 }
 
 header {
@@ -26,61 +27,59 @@ header .logo {
 header nav a {
   margin: 0 10px;
   text-decoration: none;
-  color: #333;
+  color: #101010;
 }
 
-.intro{
+.intro {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 50px 100px;
   max-width: 1200px;
   margin: auto;
+  background: rgba(227, 222, 222, 0.5);
+  border-radius: 10px;
 }
 
 .intro-text h4 {
   font-size: 1.5em;
-  color: #333;
+  color: #191818;
 }
 
 .intro-text h1 {
   font-size: 3em;
   font-weight: bold;
+  color: #141313;
 }
 
 .intro-text p {
   max-width: 500px;
   margin: 20px 0;
+  color: #080808;
 }
+
 .button {
   display: inline-block;
   padding: 10px 20px;
-  background-color: #333;
+  background-color: #fdfafa;
   color: #fff;
   text-decoration: none;
   border-radius: 5px;
   font-weight: bold;
 }
-.intro-image{
+
+.intro-image {
   width: 400px;
-  height: 400;
+  height: 400px; 
   object-fit: cover;
   border-radius: 5px;
 }
-
 
 .competences {
   display: flex;
   justify-content: space-around;
   padding: 40px 20px;
   text-align: center;
-}
-
-.competence .icon {
-  width: 80px;
-  height: 80px;
-  background-color: #ffffff;
-  margin: 0 auto 0px;
 }
 
 .realisations {
@@ -105,17 +104,18 @@ header nav a {
   height: auto;
 }
 
-.realisations img{
-  width: 100;
-  height: 200;
+.realisations img {
+  width: 100%;
+  height: 200px; 
 }
+
 .temoignages {
   padding: 50px;
   text-align: center;
 }
 
 .temoignage {
-  background-color: #f9f9f9;
+  background-color:#d4cccc;
   padding: 20px;
   margin: 10px;
   display: inline-block;
@@ -134,6 +134,7 @@ header nav a {
   display: flex;
   align-items: center;
 }
+
 .author {
   display: flex;
   align-items: center;
@@ -166,4 +167,3 @@ header nav a {
   border: none;
   cursor: pointer;
   margin-top: 10px;
-}
