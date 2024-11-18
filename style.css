@@ -1,4 +1,4 @@
-{
+html{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -11,6 +11,11 @@ body {
   background: url('https://img.freepik.com/vecteurs-libre/fond-abstrait-blanc_23-2148830054.jpg') no-repeat center center fixed;
   background-size: cover;
   color: #111010;
+}
+
+a{
+  text-decoration: none;
+  color: black;
 }
 
 header {
